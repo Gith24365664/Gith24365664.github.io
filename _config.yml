@@ -6,9 +6,34 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an description for your site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  1. Project Background
+This project aims to develop a data-driven pricing strategy by analyzing the relationship between price and demand. The primary business objective is to optimize pricing to maximize revenue while maintaining competitive market positioning. The key problem statement is determining price elasticity and formulating an effective pricing adjustment strategy based on sales data and predictive modeling.
+
+2. Work Accomplished
+Data Preparation: Processed and cleaned the dataset, ensuring data consistency and handling missing values.
+Model Selection & Training: Implemented multiple models, including Linear Regression, Random Forest, and Gradient Boosting, to predict demand based on price changes.
+Model Evaluation: Evaluated the models’ accuracy, identifying Random Forest as the best-performing model. Further tuning using GridSearchCV improved its R² score from 0.4276 to 0.6018.
+Price Elasticity Calculation: Estimated price elasticity by applying a 10% price adjustment and analyzing the impact on predicted demand.
+
+3. Recommendation and Analysis
+If a product has high price elasticity, a 10% price reduction is recommended to increase sales volume.
+If a product has low price elasticity, a 10% price increase is recommended to maximize revenue.
+If demand remains stable regardless of price changes, maintaining the current price is the best approach.
+Due to potential biases from limited customer reviews, pricing strategies should be periodically reviewed with additional data sources.
+
+4. AI Ethics
+Privacy: The dataset does not contain personal customer information, ensuring compliance with privacy regulations.
+Fairness: The pricing model is evaluated to prevent discrimination against specific customer groups or product categories.
+Accuracy: The model’s predictions are continuously refined through data-driven insights and validation processes.
+Accountability: Pricing decisions should be reviewed regularly, ensuring they align with business goals and market trends.
+Transparency: The methodology, data sources, and model performance metrics are documented for stakeholder understanding and trust.
+
+5. Source Codes and Datasets
+The final modeling scripts and datasets have been uploaded to the project’s GitHub repository. The repository includes:
+
+Final processed dataset used for training and evaluation
+Python scripts for data preparation, modeling, and evaluation
+Jupyter notebooks detailing the analysis and model training steps
 
 # Build settings
 
