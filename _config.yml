@@ -31,9 +31,9 @@ Transparency: The methodology, data sources, and model performance metrics are d
 5. Source Codes and Datasets
 The final modeling scripts and datasets have been uploaded to the project’s GitHub repository. The repository includes:
 
-Final processed dataset used for training and evaluation
-Python scripts for data preparation, modeling, and evaluation
-Jupyter notebooks detailing the analysis and model training steps
+-Final processed dataset used for training and evaluation
+-Python scripts for data preparation, modeling, and evaluation
+-Jupyter notebooks detailing the analysis and model training steps
 
 # Build settings
 
