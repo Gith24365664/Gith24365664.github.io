@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Guy CHEN
+author: CHEN LONG
 title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
