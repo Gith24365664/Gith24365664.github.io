@@ -59,8 +59,5 @@ This project aims to develop a data-driven pricing strategy by analyzing the rel
 -Transparency: The methodology, data sources, and model performance metrics are documented for stakeholder understanding and trust.
 
 ## Source Codes and Datasets
-The final modeling scripts and datasets have been uploaded to the project’s GitHub repository. The repository includes:
+https://github.com/Gith24365664/itd214_project
 
--Final processed dataset used for training and evaluation
--Python scripts for data preparation, modeling, and evaluation
--Jupyter notebooks detailing the analysis and model training steps
